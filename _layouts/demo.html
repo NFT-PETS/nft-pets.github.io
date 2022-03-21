@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tamagotchi JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Pok&#233;Gotchi</h1>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-7 text-center">
+          <img id="pokemon" src="images/charmander.gif">
+          <br><br>
+        </div>
+        <div class="col-xs-5 stats">
+          <p><img src="images/food.png" width="20px" height="20px"> <span class="food">100</span>%</p>
+          <p><img src="images/activity.jpg" width="20px" height="20px"> <span class="activity">100</span>%</p>
+          <p><img src="images/sleep.png" width="20px" height="20px"> <span class="sleep">100</span>%</p>
+          <p><img src="images/money.png" width="20px" height="20px"> $<span class="money">0.00</span></p>
+          <p>Lvl: <span class="level">1</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="progress progress-striped">
+            <div id="food-level" class="progress-bar progress-bar-success">Food Level</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <button id="feed" class="btn btn-success">Feed
+            <span class="hidden-xs">&larr;</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="progress progress-striped">
+            <div id="activity-level" class="progress-bar progress-bar-success">Activity Level</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <button id="play" class="btn btn-success">Play
+            <span class="hidden-xs">&darr;</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="progress progress-striped">
+            <div id="sleep-level" class="progress-bar progress-bar-success">Sleep Level</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <button id="sleep" class="btn btn-success">Sleep
+            <span class="hidden-xs">&rarr;</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div id="evolve" class="col-xs-4 evolve">
+          <img src="images/evolve_Button.png" width="72" height="72">
+        </div>
+        <div id="buy-evolve" class="col-xs-4 hide">
+          <img class="red" src="images/evolve_Button.png" width="72" height="72">
+        </div>
+        <div id="buy-evolve2" class="col-xs-4 hide">
+          <img class="red" src="images/evolve_Button.png" width="72" height="72">
+        </div>
+        <div id="level-up" class="col-xs-4 gray-item">
+          <img src="images/levelUp.png" width="72" height="72">
+        </div>
+        <div id="buy-level-up" class="col-xs-4 hide">
+          <img src="images/levelUp.png" width="72" height="72">
+        </div>
+        <div id="potion" class="col-xs-4 gray-item">
+          <img src="images/smallPotion.png" width="48" height="72" />
+        </div>
+        <div id="buy-potion" class="col-xs-4 hide">
+          <img src="images/smallPotion.png" width="48" height="72" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
