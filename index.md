@@ -1,3 +1,3 @@
 ---
-layout: dude1
+layout: dude2
 ---
