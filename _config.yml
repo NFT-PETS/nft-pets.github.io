@@ -55,17 +55,24 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-defaults:   
-- scope:
-    type: posts
-  values:
-    layout: post
-- scope:
-    type: pages
-  values:
-    layout: page
-- scope:
-    type: products
-  values:
-    layout: product
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+- 
+   scope:
+     type: products
+   values:
+     layout: product
