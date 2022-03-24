@@ -77,11 +77,10 @@ defaults:
   -
     scope:
       path: _js
-      type: 
     values:
       is_post: true
       layout: js
-      permalink: /js/:title.html
+      permalink: /js/:title.js
 #  -
 #    scope:
 #      type: pages
