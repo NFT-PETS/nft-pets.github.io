@@ -72,6 +72,14 @@ defaults:
       is_post: true
       layout: page
       permalink: /page
+  -
+    scope:
+      type: js
+      path: _js
+    values:
+      is_post: true
+      layout: js
+      permalink: /js/:title.js
 #  -
 #    scope:
 #      type: pages
