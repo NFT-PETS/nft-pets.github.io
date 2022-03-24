@@ -64,15 +64,15 @@ defaults:
       is_post: true
       layout: post
       permalink: /blog/:categories/:title/
-  -
-    scope:
-      type: pages
-      path: _pages
-    values:
-      is_post: false
-      layout: default
- - 
-    scope:
-      type: products
-    values:
-      layout: product
+#  -
+#    scope:
+#      type: pages
+#      path: _pages
+#    values:
+#      is_post: false
+#      layout: default
+# - 
+#    scope:
+#      type: products
+#    values:
+#      layout: product
