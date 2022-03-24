@@ -37,6 +37,7 @@ plugins:
 include:
  - node_modules
  - _js
+ - js
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -77,10 +78,11 @@ defaults:
   -
     scope:
       path: _js
+      type: 
     values:
       is_post: true
       layout: js
-      permalink: /js/:title.js
+      permalink: /js/:title.html
 #  -
 #    scope:
 #      type: pages
