@@ -74,7 +74,6 @@ defaults:
       permalink: /page
   -
     scope:
-      type: js
       path: _js
     values:
       is_post: true
